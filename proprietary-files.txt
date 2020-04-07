@@ -549,11 +549,6 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # Power-off charging daemon
 -bin/charger:bin/chargeonlymode
 
-# Qualcomm Display
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-
 # Qualcomm MSM Interface
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
@@ -589,15 +584,6 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
-
-# Qualcomm Trusted Execution Environment
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Radio
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
